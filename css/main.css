@@ -58,10 +58,6 @@ li:nth-child(2) { background-color: #657ba3; }
 
 tr:nth-child(odd) { background-color: #657ba3; }
 
-div:nth-child(5n) { background-color: #657ba3; }
-
-li:nth-child(2) { background-color: #586e75; }
-
 tr:nth-child(even) { background-color: #586e75; }
 
-div:nth-child(5n) { background-color: #586e75; }
+div:nth-child(5n) { background-color: #657ba3; }
