@@ -42,17 +42,17 @@ input:not(:checked) { background-color: #719e07; }
 
 [data-state="visible"] { background-color: #2694d8; }
 
-p:first-child { color: #719e07; }
+p:first-child { color: #719e47; }
 
-ol li:first-child { color: #719e07; }
+ol li:first-child { color: #719e47; }
 
-.person:first-child { color: #719e07; }
+.person:first-child { color: #719e47; }
 
-ol li:last-child { color: #2694d8; }
+ol li:last-child { color: #2aa198; }
 
-p:last-child { color: #2694d8; }
+p:last-child { color: #2aa198; }
 
-.item:last-child { color: #2694d8; }
+.item:last-child { color: #2aa198; }
 
 li:nth-child(2) { background-color: #657ba3; }
 
