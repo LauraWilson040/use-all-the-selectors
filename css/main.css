@@ -37,3 +37,7 @@ nav ul {
 p:not(.no-highlight) { background-color: #2694d8; }
 
 input:not(:checked) { background-color: #2694d8; }
+
+[rel="external"] { background-color: #719e07; }
+
+[data-state="visible"] { background-color: #719e07; }
