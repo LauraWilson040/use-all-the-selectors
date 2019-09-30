@@ -30,40 +30,20 @@ nav ul {
   background-color: #b58900;
 }
 
-.dfn + strong {
+p + strong {
   color: #fff;
 }
 
-p:not(.no-highlight) { background-color: #719e07; }
-
-input:not(:checked) { background-color: #719e07; }
+a:not(.no-highlight) { background-color: #719e07; }
 
 [rel="external"] { background-color: #2694d8; }
 
-[data-state="visible"] { background-color: #2694d8; }
-
-p:first-child { color: #719e47; }
-
 ol li:first-child { color: #719e47; }
-
-.person:first-child { color: #719e47; }
 
 ol li:last-child { color: #2aa198; }
 
-p:last-child { color: #2aa198; }
+.types > li:nth-child(odd) { background-color: #657ba3; }
 
-.item:last-child { color: #2aa198; }
+.types > li:nth-child(even) { background-color: #586e75; }
 
-li:nth-child(2) { background-color: #657ba3; }
-
-tr:nth-child(odd) { background-color: #657ba3; }
-
-tr:nth-child(even) { background-color: #586e75; }
-
-div:nth-child(5n) { background-color: #657ba3; }
-
-/* Third <li> element in its parent */
-
-li:nth-of-type(3) {
-  background-color: #d04b16;
-}
+.types > li:nth-child(3n) { background-color: #d04b16; }
