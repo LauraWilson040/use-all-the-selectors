@@ -33,3 +33,8 @@ nav ul {
 .dfn + strong {
   color: #fff;
 }
+
+p:not(.no-highlight) {}
+input:not(:checked) {
+  background-color: #2694d8;
+}
