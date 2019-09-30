@@ -34,16 +34,25 @@ nav ul {
   color: #fff;
 }
 
-p:not(.no-highlight) { background-color: #2694d8; }
+p:not(.no-highlight) { background-color: #719e07; }
 
-input:not(:checked) { background-color: #2694d8; }
+input:not(:checked) { background-color: #719e07; }
 
-[rel="external"] { background-color: #719e07; }
 
-[data-state="visible"] { background-color: #719e07; }
+[rel="external"] { background-color: #2694d8; }
 
-p:first-child { color: #2aa198; }
+[data-state="visible"] { background-color: #2694d8; }
 
-ol li:first-child { color: #2aa198; }
 
-.person:first-child { color: #2aa198; }
+p:first-child { color: #719e07; }
+
+ol li:first-child { color: #719e07; }
+
+.person:first-child { color: #719e07; }
+
+
+ol li:last-child { color:#2694d8 }
+
+p:last-child { color:#2694d8 }
+
+.item:last-child { color:#2694d8 }
