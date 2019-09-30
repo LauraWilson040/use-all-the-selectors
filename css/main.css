@@ -34,7 +34,5 @@ nav ul {
   color: #fff;
 }
 
-p:not(.no-highlight) {}
-input:not(:checked) {
-  background-color: #2694d8;
-}
+p:not(.no-highlight) { background-color: #2694d8; }
+input:not(:checked) { background-color: #2694d8; }
